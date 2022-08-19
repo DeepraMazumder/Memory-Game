@@ -103,7 +103,7 @@ function checkForMatch(cardOne, cardTwo) {
         backgroundMusic.pause();
         winEffect.play();
         clearInterval(tm1);
-        board.innerHTML = `You Won! You find them all in ${timer.textContent} seconds.`;
+        board.innerHTML = `WINNER! You have found all of them in ${timer.textContent} seconds.`;
         board.classList.add('win');
         timer.remove();
         let restartButton = document.createElement('button');
